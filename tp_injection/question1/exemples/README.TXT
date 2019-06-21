@@ -115,5 +115,38 @@ service.class=question1.exemples.ListeEnCSV
 bean.id.18=config_editor
 config_editor.class=config_editor.GUI
 
+bean.id.19=calcul
+calcul.class=question1.exemples.MonExemple
+calcul.property.1=operande1
+calcul.property.1.param.1=15
+calcul.property.2=operande2
+calcul.property.2.param.1=3
+calcul.property.3=operateur
+calcul.property.3.param.1=+
 
+bean.id.20=calcul2
+calcul2.class=question1.exemples.MonExemple
+calcul2.property.1=operande1
+calcul2.property.1.param.1=15
+calcul2.property.2=operande2
+calcul2.property.2.param.1=3
+calcul2.property.3=operateur
+calcul2.property.3.param.1=-
 
+bean.id.21=calcul3
+calcul3.class=question1.exemples.MonExemple
+calcul3.property.1=operande1
+calcul3.property.1.param.1=15
+calcul3.property.2=operande2
+calcul3.property.2.param.1=3
+calcul3.property.3=operateur
+calcul3.property.3.param.1=*
+
+bean.id.22=calcul4
+calcul4.class=question1.exemples.MonExemple
+calcul4.property.1=operande1
+calcul4.property.1.param.1=15
+calcul4.property.2=operande2
+calcul4.property.2.param.1=3
+calcul4.property.3=operateur
+calcul4.property.3.param.1=/

@@ -1,4 +1,4 @@
-package tp_injection.service_locator;
+package service_locator;
 
 import container.*;
 
