@@ -23,12 +23,22 @@ patron_commande.property.2=name
 patron_commande.property.2.param.1=PATRON_COMMANDE
 
 
-bean.id.3=serviceLocator
+bean.id.3=patron_strategy
+patron_strategy.class=container.FileSystemPropsApplicationContext
+patron_strategy.property.1=fileName
+patron_strategy.property.1.param.1=./question2/README.TXT
+patron_strategy.property.2=name
+patron_strategy.property.2.param.1=PATRON_STRATEGY
+
+bean.id.4=serviceLocator
 serviceLocator.class=service_locator.ServiceLocator
 serviceLocator.property.1=container
 serviceLocator.property.1.param.1=exemples
 serviceLocator.property.2=container
 serviceLocator.property.2.param.1=patron_commande
+serviceLocator.property.3=container
+serviceLocator.property.3.param.1=patron_strategy
+
 
 
 

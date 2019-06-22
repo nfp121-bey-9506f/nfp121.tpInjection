@@ -22,5 +22,16 @@ public class ServiceLocatorTests extends junit.framework.TestCase{
         question1.exemples.Table table = serviceLocator.lookup("table");
         table.ajouter(33);table.ajouter(33);
         assertEquals(2,table.taille());
+        
+        question2.Context context = serviceLocator.lookup("context");
+        assertTrue(context.executeStrategy(10, 5)==15);
+        
+        question2.Context context2 = serviceLocator.lookup("context2");
+        assertTrue(context2.executeStrategy(10, 5)==5);
+        
+        question2.Context context3 = serviceLocator.lookup("context3");
+        assertTrue(context3.executeStrategy(10, 5)==50);
     }
+    
+   
 }
